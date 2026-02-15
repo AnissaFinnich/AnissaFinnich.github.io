@@ -374,14 +374,6 @@ body {
   background: url("/assets/img/avocat.jpg") center / cover no-repeat fixed;
 }
 
-/* Un voile sombre pour que le texte reste lisible */
-body::before{
-  content:"";
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,.45);
-  z-index: -1;
-}
 
 /* Le contenu sur une carte semi-transparente */
 .container {
