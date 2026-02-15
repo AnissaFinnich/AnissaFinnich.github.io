@@ -1,3 +1,11 @@
 url: "https://anissafinnich.github.io"
 baseurl: ""
 theme: minima
+
+menu:
+  - title: Accueil
+    url: /
+  - title: Parcours
+    url: /parcours/
+  - title: Tarifs
+    url: /tarifs/
