@@ -380,3 +380,8 @@
 .sidebar .avatar {
   object-fit: cover !important;
 }
+/* Empêche l'affichage "code" du HTML */
+html, body, main, .container {
+  white-space: normal !important;
+}
+
