@@ -3,10 +3,6 @@ layout: default
 title: Accueil
 ---
 
-<div class="hero">
- <img src="{{ '/assets/img/portrait1.JPG' | relative_url }}" alt="Maître Finnich Anissa">
-
-
   <div>
     <h1>Maître Finnich Anissa</h1>
     <p>Avocate au Barreau de Liège-Huy</p>
