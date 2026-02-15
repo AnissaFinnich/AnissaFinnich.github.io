@@ -367,3 +367,16 @@
 .icon-history:before {
   content: "\1f552";
 }
+
+.avatar {
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+
+.sidebar .avatar {
+  object-fit: cover !important;
+}
