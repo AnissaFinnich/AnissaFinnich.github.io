@@ -17,8 +17,9 @@ title: Accueil
     </p>
 
     <div class="buttons">
-      <a href="/parcours.html">Voir le parcours</a>
-      <a href="/tarifs.html">Consulter les tarifs</a>
+    <a href="{{ '/parcours/' | relative_url }}">Voir le parcours</a>
+    <a href="{{ '/tarifs/' | relative_url }}">Consulter les tarifs</a>
+
       <a href="https://www.linkedin.com/in/PROFIL-LINKEDIN" target="_blank">
         LinkedIn
       </a>

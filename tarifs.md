@@ -1,5 +1,8 @@
-layout: default
+
+---
+layout: page
 title: Tarifs
+permalink: /tarifs/
 ---
 
 Les honoraires sont fixés en toute transparence,
