@@ -368,6 +368,21 @@
   content: "\1f552";
 }
 
+body {
+  background-image: url("/assets/img/avocat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* voile sombre */
+  z-index: -1;
+}
 .avatar {
   width: 180px !important;
   height: 180px !important;
