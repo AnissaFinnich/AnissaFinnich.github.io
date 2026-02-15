@@ -368,21 +368,28 @@
   content: "\1f552";
 }
 
+html, body { height: 100%; }
+
 body {
-  background-image: url("/assets/img/avocat.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url("/assets/img/avocat.jpg") center / cover no-repeat fixed;
 }
 
-body::before {
-  content: "";
+/* Un voile sombre pour que le texte reste lisible */
+body::before{
+  content:"";
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* voile sombre */
+  background: rgba(0,0,0,.45);
   z-index: -1;
 }
+
+/* Le contenu sur une carte semi-transparente */
+.container {
+  background: rgba(255,255,255,.92);
+  border-radius: 16px;
+  padding: 24px;
+}
+
 .avatar {
   width: 180px !important;
   height: 180px !important;
